@@ -1,0 +1,4 @@
+PubSub
+======
+
+Javascript PubSub library
