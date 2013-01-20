@@ -1,7 +1,8 @@
 {
     "name": "cubicmushroom/js-pub-sub",
     "description": "Light weight JavaScript PubSub library including callback priority and cancelling",
-    "version": "1.0.0"
+    "license": "MIT",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "Toby Griffiths",
