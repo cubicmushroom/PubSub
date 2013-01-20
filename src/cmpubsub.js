@@ -56,7 +56,6 @@ CMPubSub = {
             priorities.push(priority);
         }
         priorities.sort(function(a, b){return Number(a)<=Number(b);});
-        console.log(priorities);
 
         // Now cycle through subscribers in each priority & call them
         for (var i = priorities.length - 1; i >= 0; i--) {
