@@ -32,6 +32,14 @@ any changes to it will not be perpetuated after the callback.  Non-primitive var
 passed by reference, therefore you can modify the object & the changes will be perpetuated.
 
 
+Passing Context (`this`)
+------------------------
+In order to allow the setting of `this` within the subscriber callback, the callback argument
+for the `CMPubSub.sub()` method can include the context object to use.  If needed this the callback
+argument becomes an array with 2 items... the 1st the callback function & the second being the
+context object.
+
+
 Prioritising Callbacks
 ----------------------
 You can add a 3rd parameter to the `CMPubSub.sub()` call to set the priority of the callback.
